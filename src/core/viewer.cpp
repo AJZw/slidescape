@@ -663,7 +663,7 @@ void update_and_render_image(app_state_t* app_state, image_t* image) {
 
 //		last_section = profiler_end_section(last_section, "viewer_update_and_render: render (1)", 5.0f);
 
-		// Render label and macro images // TZwi
+		// Render label and macro images
 		if (scene->draw_macro_image) {
 			glDisable(GL_STENCIL_TEST);
 			if (macro_image->is_valid && macro_image->texture != 0) {

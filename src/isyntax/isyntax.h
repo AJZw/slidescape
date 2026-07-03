@@ -386,7 +386,7 @@ typedef struct isyntax_t {
 	i32 cluster_header_template_count;
 	isyntax_valid_data_envelope_t valid_data_envelopes[16];
 	i32 valid_data_envelope_count;
-	rect2i valid_data_envelopes_rectangles[64];
+	rect2i valid_data_envelopes_rectangles[128];
 	i32 valid_data_envelope_rectangle_count;
 	i32 macro_image_index;
 	i32 label_image_index;
